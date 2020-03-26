@@ -5,7 +5,7 @@ public class Piece { // peça
 	protected Position position;
 	protected Board board;
 
-	public Piece(Position position, Board board) {
+	public Piece(Board board) {
 		this.board = board;
 		position = null;
 	}
