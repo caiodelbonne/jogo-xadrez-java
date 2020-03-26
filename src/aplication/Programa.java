@@ -1,12 +1,12 @@
 package aplication;
 
-import boardgame.position;
+import boardgame.Board;
+import boardgame.Position;
 
 public class Programa {
 
 	public static void main(String[] args) {
-		 position pos = new position(3, 4);
-		 System.out.println(pos);
+		Board bor = new Board(8, 8);
 
 	}
 
